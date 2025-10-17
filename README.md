@@ -209,6 +209,7 @@ We have implemented most of the state-of-the-art methods. The categories and ref
 | | [DataInf](https://arxiv.org/abs/2310.00902)|
 | | [EK-FAC](https://arxiv.org/abs/2308.03296) |
 | | [RelatIF](https://arxiv.org/pdf/2003.11630) |
+| | [LoGra](https://arxiv.org/pdf/2405.13954) |
 | [TracIn](https://arxiv.org/abs/2002.08484) | [TracInCP](https://arxiv.org/abs/2002.08484) |
 |        |   [Grad-Dot](https://arxiv.org/abs/2102.05262)  |
 |        |   [Grad-Cos](https://arxiv.org/abs/2102.05262)  |
@@ -244,14 +245,12 @@ We have implemented most of the state-of-the-art methods. The categories and ref
 
 ## Development Plan
 - More (larger) benchmark settings to come
-  - ImageNet + ResNet-18
-  - Tinystories + nanoGPT
-  - Comparison with other libraries
+  - Wikitext + GPT2
 - More algorithms and low-level utility functions to come
   - KNN filter
   - TF-IDF filter
-  - In-Run Shapley
-  - [LoGra](https://arxiv.org/abs/2405.13954)
+  - [Data Value Embedding](https://arxiv.org/pdf/2412.09538)
+  - [GraSS](https://arxiv.org/pdf/2505.18976)
 - Better documentation
   - Quick start colab notebooks
 
@@ -260,11 +259,11 @@ We have implemented most of the state-of-the-art methods. The categories and ref
 ```bibtex
 @inproceedings{NEURIPS2024_f7326833,
     author    = {Deng, Junwei and Li, Ting-Wei and Zhang, Shiyuan and Liu, Shixuan and Pan, Yijun and Huang, Hao and Wang, Xinhe and Hu, Pingbang and Zhang, Xingjian and Ma, Jiaqi},
+    title     = {dattri: A Library for Efficient Data Attribution},
     booktitle = {Advances in Neural Information Processing Systems},
     editor    = {A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang},
     pages     = {136763--136781},
     publisher = {Curran Associates, Inc.},
-    title     = {\textbackslash texttt\lbrace dattri\rbrace : A Library for Efficient Data Attribution},
     url       = {https://proceedings.neurips.cc/paper_files/paper/2024/file/f732683302d91e47610b2416b4977a66-Paper-Datasets_and_Benchmarks_Track.pdf},
     volume    = {37},
     year      = {2024}
